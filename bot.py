@@ -18,12 +18,6 @@ from aiogram.types import (
 from pathlib import Path
 from dotenv import load_dotenv
 
-env_path = Path(__file__).parent / "pomnibot.env"
-print("Файл существует:", env_path.exists(), env_path)
-print("Загружено:", load_dotenv(env_path))
-print("Токен найден:", os.getenv("BOT_TOKEN") is not None)
-
-bot = Bot(token=os.getenv("BOT_TOKEN"))
 load_dotenv(Path(__file__).parent / "pomnibot.env")
 bot = Bot(token=os.getenv("BOT_TOKEN"))
 dp = Dispatcher()
