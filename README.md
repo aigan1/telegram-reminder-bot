@@ -1,5 +1,3 @@
-# telegram-reminder-bot
-Telegram-бот для напоминаний на Python (aiogram, SQLite)
 # Telegram-бот «bro napomni»
 
 Бот на Python (aiogram 3) для напоминаний. Напоминания хранятся в SQLite и
