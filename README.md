@@ -8,6 +8,7 @@
 - `/list` - список активных напоминаний
 - Кнопки под напоминанием: отложить на 5 / 10 / 30 минут, на 1 час,
   на своё время или отметить выполненным
+<img width="945" height="987" alt="image" src="https://github.com/user-attachments/assets/35a3b7c6-8a39-4537-9496-f8ae4fe756ba" />
 
 ## Технологии
 Python 3.13, aiogram 3, SQLite, python-dotenv
